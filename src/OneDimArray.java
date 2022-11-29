@@ -13,6 +13,8 @@ public class OneDimArray {
 
         Arrays.fill(array4, 22);
 
+        Swap.swap(array1, 1, 2);
+
         Random random = new Random();
         for (int i = 0, a = 10; i < array3.length; i++, a++) {
             array1[i] = 10 * a;
@@ -21,7 +23,7 @@ public class OneDimArray {
         }
         strings[1] = "first";
         // нельзя инициализировать массив таким циклом (foreach)
-        for (String s : strings){
+        for (String s : strings) {
             s = "abc";
             System.out.print(s);
         }
